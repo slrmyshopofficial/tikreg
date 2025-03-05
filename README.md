@@ -16,41 +16,46 @@ npm install @slrmyapi/tikreg
 const { gettikreg } = require("@slrmyapi/tikreg");
 
 // Contoh: Semak maklumat pengguna TikTok berdasarkan username
-gettikreg("slrmyshop").then(console.log);
+gettikreg("slrmyshopofficial").then(console.log);
 
 /*
 Output:
 {
-  "status": "success",
+  "status": true,
   "data": {
-    "id": "7061080971211572225",
-    "uniqueId": "slrmyshop",
-    "nickname": "Slrmy Shop",
-    "avatarLarger": "https://p16-common-sign-sg.tiktokcdn-us.com/...",
-    "avatarMedium": "https://p16-common-sign-sg.tiktokcdn-us.com/...",
-    "avatarThumb": "https://p16-common-sign-sg.tiktokcdn-us.com/...",
-    "signature": "copyright | 2019 - 2024",
-    "createTime": 1646273078,
-    "verified": false,
-    "region": "MY",
-    "language": "en"
-  },
-  "country_data": {
-    "nama": "Malaysia",
-    "penduduk": 33600000,
-    "emoji": "🇲🇾",
-    "kod_telefon": "+60",
-    "mata_wang": {
-      "kod": "MYR",
-      "simbol": "RM",
-      "nama": "Ringgit Malaysia"
+    "pengguna": {
+      "id": "7141350544087172122",
+      "username": "slrmyshopofficial",
+      "nama_paparan": "slrmyshopofficial",
+      "gambar_profil": {
+        "besar": "https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-avt-0068/398e0e0b2f1a17eab067205aee6e8828~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=0bef0630&x-expires=1741334400&x-signature=2lH6QWLHEjjgvRT7lc%2Btg8vYLP8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
+        "sederhana": "https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-avt-0068/398e0e0b2f1a17eab067205aee6e8828~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=cd41c7e6&x-expires=1741334400&x-signature=RZHbH7NlJSepUmA6yaJqZEEAoqI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
+        "kecil": "https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-avt-0068/398e0e0b2f1a17eab067205aee6e8828~tplv-tiktokx-cropcenter:100:100.jpeg?dr=9640&refresh_token=38adc903&x-expires=1741334400&x-signature=JrZ9M7sh4Ot%2B%2Buoywm53pAdeOPQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8"
+      },
+      "bio": "SKY LEGACY RESOUCES\n+601136871190 | WhatsApp Only\nOfficial API | SlrmyShop",
+      "tarikh_daftar": "9 September 2022, 12:09 PM",
+      "akaun_sah": "Tidak",
+      "id_tersembunyi": "MS4wLjABAAAAZp71kfpxupwhTk1wnR1bsjAcZI59IOFl0zWSucbSgbC8vGZ65vVuOj_gEehHFY6A",
+      "akaun_peribadi": "Tidak",
+      "organisasi": "Tidak",
+      "bahasa": {
+        "kod": "en",
+        "nama": "Bahasa Inggeris"
+      },
+      "negara": {
+        "kod": "MY",
+        "nama": "Malaysia",
+        "emoji": "🇲🇾"
+      },
+      "pautan_bio": "https://chat.whatsapp.com/Bk9m12rA8qy7lXKP3jcoCs"
     },
-    "bahasa_rasmi": {
-      "kod": "ms",
-      "nama_melayu": "Melayu",
-      "nama_asal": "Bahasa Melayu"
+    "statistik": {
+      "pengikut": 102600,
+      "mengikuti": 3257,
+      "jumlah_suka": 277600,
+      "jumlah_video": 7
     },
-    "rantau": "Asia Tenggara"
+    "senarai_acara": []
   },
   "devInfo": {
     "GitHub": "https://github.com/slrmyshopofficial",
